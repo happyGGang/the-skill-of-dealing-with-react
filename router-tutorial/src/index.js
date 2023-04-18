@@ -7,6 +7,7 @@ import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  // 프로젝트에 react-router-dom 적용하려면 내장 컴포넌트 BrowserRouter로 감싸기
   <BrowserRouter>
     <React.StrictMode>
       <App />
